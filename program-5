@@ -1,0 +1,12 @@
+# Write a program that tells weight in lbs if it is in kgs otherwise kbs if it is in lbs
+
+
+Weight = int(input("Enter your weight: "))
+unit = input("(K)g or (L)bs: ")
+if unit.upper() == "K":
+    convert = Weight / 0.45
+    print("Weight in Lbs is: ", convert)
+else:
+    converted = Weight * 0.45
+    print("Weight in Kgs is:", converted)
+
