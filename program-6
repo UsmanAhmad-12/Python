@@ -1,0 +1,5 @@
+# program to convert temprature from celsius to fahrenheit
+celsius = int(input("Enter temprature in celcius: "))
+
+fahrenheit = (celsius *(9/5))+32
+print("The converted value is ",fahrenheit,"Fahrenheit")
